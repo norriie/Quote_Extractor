@@ -1,45 +1,18 @@
 # Quote Extractor
 
-A small tool that helps journalists cut down the time spent re-reading raw
-interview transcripts looking for the strongest, most quotable lines.
+A small tool that helps journalists cut down the time spent re-reading raw interview transcripts looking for the strongest, most quotable lines.
 
-Paste a transcript in, get back the top quotes, who said them, and a short
-note on why each one is worth using — ready to drop into a draft.
+Paste a transcript in, get back the top quotes, who said them, and a short note on why each one is worth using after getting a hold of your narrative tone. This features allows it to be effortlessly dropped into a draft. 
 
 ## Why
 
-Anyone who's transcribed an interview knows the real work isn't the
-transcription, it's re-reading forty-five minutes of conversation to find the
-five lines that actually make it into the piece. This automates that first
-pass so the writer can spend their time on judgment calls, not scanning.
+Anyone who's transcribed an interview knows the real work is tediously re-reading forty-five minutes of conversation to find the
+five lines that actually make it into the piece. This automates that first pass so the writer can spend their time on judgment calls and reinforcing the language or points instead of scanning piles upon piles of transcripts.
 
 ## How it works
 
-The transcript is sent to Claude with instructions to identify the strongest
-quotes (by criteria like surprise, emotional weight, and concision), attribute
-each to a speaker, and explain briefly why it stands out. Results are shown in
-the app and can be exported as a `.txt` file.
-
-## Setup
-
-1. Clone the repo and install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-2. Get an API key from [console.anthropic.com](https://console.anthropic.com)
-   and set it as an environment variable:
-   ```bash
-   export ANTHROPIC_API_KEY="your-key-here"
-   ```
-   (On Windows: `setx ANTHROPIC_API_KEY "your-key-here"`, then restart your terminal.)
-
-3. Run the app:
-   ```bash
-   streamlit run app.py
-   ```
-
-4. Try it with `sample_transcript.txt` included in this repo, or paste your own.
+The transcript is sent to identify the strongest quotes (by criteria like surprise, emotional weight, and concision), attribute
+each to a speaker, and explain briefly why it stands out. Results are shown in the app and can be exported as a `.txt` file.
 
 ## Tech
 
