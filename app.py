@@ -1,17 +1,3 @@
-"""
-Quote Extractor for Journalists
---------------------------------
-Paste a raw interview transcript and get back the strongest,
-most publishable quotes -- with speaker attribution and a short
-note on *why* each quote is strong.
-
-Run locally:
-    streamlit run app.py
-
-Requires an Anthropic API key set as the ANTHROPIC_API_KEY
-environment variable (see README.md for setup).
-"""
-
 import os
 import json
 import streamlit as st
