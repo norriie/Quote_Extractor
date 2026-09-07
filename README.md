@@ -1,4 +1,4 @@
-# AI-powered quote extractor tool made for streamlining quote usage decisions
+# AI-powered quote extractor tool made for streamlining post-interview quote usage decisions
 
 A small anthropic powered AI tool that helps journalists cut down the time spent re-reading raw interview transcripts looking for the strongest, most quotable lines.
 
