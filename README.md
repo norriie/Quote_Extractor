@@ -1,6 +1,6 @@
-# Quote Extractor
+# AI-powered quote extractor tool made for streamlining quote usage decisions
 
-A small tool that helps journalists cut down the time spent re-reading raw interview transcripts looking for the strongest, most quotable lines.
+A small anthropic powered AI tool that helps journalists cut down the time spent re-reading raw interview transcripts looking for the strongest, most quotable lines.
 
 Paste a transcript in, get back the top quotes, who said them, and a short note on why each one is worth using after getting a hold of your narrative tone. This features allows it to be effortlessly dropped into a draft. 
 
